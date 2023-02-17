@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - World B
+  - World A
+  - Danger
+  - GM
+  - Enemy
+  - pew
+  - Wall
+  - CheckPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Danger
+  - Enemy
+  - Wall
+  - pew
+  - EnemyObstruction
+  - WORLD_A
+  - MenuBackground
+  - PostProcessing
+  - EnemyOffset
+  - EnemyGround
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackBackGround
+    uniqueID: 109990919
+    locked: 0
+  - name: Background
+    uniqueID: 3650627779
+    locked: 0
+  - name: MidBackGround
+    uniqueID: 1159508797
+    locked: 0
+  - name: FrontGround
+    uniqueID: 1943903907
+    locked: 0
+  - name: Floor/Traps
+    uniqueID: 1802931037
+    locked: 0
+  - name: Collectibles
+    uniqueID: 3407640593
+    locked: 0
+  - name: Enemy
+    uniqueID: 469351535
+    locked: 0
+  - name: Player
+    uniqueID: 2980210733
+    locked: 0
+  - name: Front
+    uniqueID: 3521987097
+    locked: 0
+  - name: Portal
+    uniqueID: 3995657927
+    locked: 0
+  - name: Front2
+    uniqueID: 2679115915
+    locked: 0
