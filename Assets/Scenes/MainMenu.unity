@@ -4442,7 +4442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Angela Ceroula\n\nLeonor Ramos Duarte\n\nPenelope Lee Caswell\n\nGon\xE7alo
+  m_text: "Angela M Ceroula\n\nLeonor Ramos Duarte\n\nPenelope Lee Caswell\n\nGon\xE7alo
     Miranda\n\nAndrew Carvalho-O'Dell\n\n\n@gibbedbit\n\npixabay.com\n\nfreesound.org"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d60d515d14fd0245a267040b19af0de, type: 2}

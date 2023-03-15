@@ -8,10 +8,13 @@ public class EndofLevel : MonoBehaviour
 {
     private Timer timer;
     public float delayInSeconds = 0;
+    //private EnterMainMenu enterMainMenu;
+
 
     private void Start()
     {
         timer = GameObject.Find("TimeManager").GetComponent<Timer>();
+        //enterMainMenu = GameObject.Find("UI").GetComponent<EnterMainMenu>();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -29,6 +32,7 @@ public class EndofLevel : MonoBehaviour
     IEnumerator EndSceneDelay()
     {
         yield return new WaitForSeconds(delayInSeconds);
+        //enterMainMenu.StopMusic();
         SceneManager.LoadScene("FinalScene");
         
     }

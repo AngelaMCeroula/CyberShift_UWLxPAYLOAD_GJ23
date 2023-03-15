@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -691182407
     Data4: 418566900
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
     Data3: 1327156882
     Data4: 783235383
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -54,26 +54,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 128000
---- !u!114 &-6520165923809585396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../GamejamAudio/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638115821074476846
-  FileSizes:
-  - Name: Desktop
-    Value: 2009568
-  Exists: 1
 --- !u!114 &-6345658521149097602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +73,7 @@ MonoBehaviour:
     Data3: -1862592579
     Data4: -920685943
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -120,7 +100,7 @@ MonoBehaviour:
     Data3: 1098035636
     Data4: 1491259096
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -147,7 +127,7 @@ MonoBehaviour:
     Data3: -939642201
     Data4: -1226711319
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -180,7 +160,7 @@ MonoBehaviour:
   Labels:
   - Value A
   Exists: 1
---- !u!114 &-719513350025786878
+--- !u!114 &-3502721380956389782
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,15 +170,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../GamejamAudio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638115821074506486
+  Path: ../GamejamAudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638122715400000000
   FileSizes:
   - Name: Desktop
-    Value: 1584
+    Value: 1937184
   Exists: 1
 --- !u!114 &-48384325691837635
 MonoBehaviour:
@@ -219,7 +199,7 @@ MonoBehaviour:
     Data3: -986959958
     Data4: -1099979213
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -240,8 +220,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -719513350025786878}
-  - {fileID: -6520165923809585396}
+  - {fileID: 538988588705873573}
+  - {fileID: -3502721380956389782}
   EditorEvents:
   - {fileID: 700088732857725275}
   - {fileID: -7995850210771470140}
@@ -258,10 +238,10 @@ MonoBehaviour:
   - {fileID: 9019507852223256338}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   StringsBanks:
-  - {fileID: -719513350025786878}
-  cacheTime: 638115821074506486
+  - {fileID: 538988588705873573}
+  cacheTime: 638122715400000000
   cacheVersion: 131601
 --- !u!114 &78921322640323807
 MonoBehaviour:
@@ -282,7 +262,7 @@ MonoBehaviour:
     Data3: 329162384
     Data4: -604607281
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -309,7 +289,7 @@ MonoBehaviour:
     Data3: 1070237312
     Data4: -1136271984
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -317,6 +297,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &538988588705873573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../GamejamAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638122715400000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1584
+  Exists: 1
 --- !u!114 &700088732857725275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
     Data3: -1899197801
     Data4: -625033063
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -363,7 +363,7 @@ MonoBehaviour:
     Data3: -1071673468
     Data4: 1917163733
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -391,7 +391,7 @@ MonoBehaviour:
     Data3: -2007092072
     Data4: 1393015663
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
     Data3: 1789123718
     Data4: 1000085172
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -445,7 +445,7 @@ MonoBehaviour:
     Data3: -150351190
     Data4: 322797265
   Banks:
-  - {fileID: -6520165923809585396}
+  - {fileID: -3502721380956389782}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
